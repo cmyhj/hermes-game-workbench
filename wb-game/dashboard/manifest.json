@@ -1,0 +1,15 @@
+{
+  "name": "wb-game",
+  "label": "游戏",
+  "description": "今日游戏脚本运行情况、体力推算与卡池即将到来",
+  "icon": "Gamepad2",
+  "version": "1.0.0",
+  "tab": {
+    "path": "/game",
+    "position": "after:projects"
+  },
+  "entry": "dist/index.js",
+  "css": "dist/style.css",
+  "has_api": true,
+  "api": "plugin_api.py"
+}

@@ -1,0 +1,2 @@
+[2026-11-22 10:05:01.000] [TaskChainCompleted] {"taskchain":"StartUp"}
+[2026-11-22 10:05:02.000][INF][Px1000][Tx2000] Assistant::append_callback | TaskChainError {"taskchain":"SwitchTheme","taskid":3}

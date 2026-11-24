@@ -1,0 +1,7 @@
+{
+  "mcp_url": "http://127.0.0.1:36163/mcp",
+  "chronorail_path": "<ChronoRail>/public/data/game-versions.json",
+  "chronorail_catalog_path": "<ChronoRail>/public/data/chronorail.json",
+  "auto_mas_script_config": "<AUTO-MAS>/config/legacy-json/ScriptConfig.json",
+  "zzz_onedragon_root": "<ZZZ-OneDragon>"
+}

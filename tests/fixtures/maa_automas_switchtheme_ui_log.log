@@ -1,0 +1,7 @@
+[2026-11-22 11:26:22.802][ERR][AutoStart]              <2> Failed to set startup: No value exists with that name.
+[2026-11-22 11:33:59.673][INF][Px49976][Tx44368] Assistant::append_callback | TaskChainCompleted {"taskchain":"Award","taskid":6,"uuid":"1ddf9a33517ff6e5"}
+[2026-11-22 11:34:45.052][ERR][TaskQueueViewModel]     <2> 未找到主题：梦乡，请检查名称是否与游戏内一致。
+[2026-11-22 11:34:45.114][INF][Px49976][Tx44368] Assistant::append_callback | TaskChainError {"taskchain":"SwitchTheme","taskid":7,"uuid":"1ddf9a33517ff6e5"}
+[2026-11-22 11:34:46.239][ERR][TaskQueueViewModel]     <2> 任务出错: 更换主题
+[2026-11-22 11:34:46.628][ERR][TaskQueueViewModel]     <2> 任务已结束，以下任务出现错误:
+[2026-11-22 11:34:48.378][INF][Px49976][Tx44368] Assistant::append_callback | TaskChainCompleted {"taskchain":"CloseDown","taskid":8,"uuid":"1ddf9a33517ff6e5"}

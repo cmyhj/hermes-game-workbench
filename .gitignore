@@ -1,0 +1,47 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# ---- 运行时数据：绝不入库 ----
+# config.json 含本机绝对路径；插件运行数据含账号/日志
+config.json
+plugin-data/
+logs/
+*.log
+# 测试夹具是脱敏/合成日志片段，必须入库
+!tests/fixtures/*.log
+
+# ---- 凭据与本地状态 ----
+.env
+.env.*
+*.token
+auth.txt
+cookies.txt
+*.sqlite
+*.sqlite3
+
+# ---- 本地清理/备份 ----
+*.bak
+*.bak.*
+*.tmp
+.tmp-*
+.scratch/
+.scratch-data/
+.scratch-test/
+.scratch-backup/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- node（仅测试用，无构建产物）----
+node_modules/
