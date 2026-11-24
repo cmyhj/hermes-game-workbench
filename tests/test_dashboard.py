@@ -80,7 +80,7 @@ def test_auto_mas_config_builds_two_hsr_script_rosters_without_counting_metadata
             "account-disabled": {"Info": {"Name": "disabled", "Status": False}},
         }}},
         src_id: {"SubConfigsInfo": {"UserData": {
-            "account-b": {"Info": {"Name": "崩铁模拟器191", "Status": True}},
+            "account-b": {"Info": {"Name": "崩铁模拟器测试账号", "Status": True}},
         }}},
         "general": {"SubConfigsInfo": {"UserData": {
             "unlinked": {"Info": {"Name": "no-account-metadata", "Status": True}},
@@ -91,7 +91,7 @@ def test_auto_mas_config_builds_two_hsr_script_rosters_without_counting_metadata
     monkeypatch.setattr(api, "AUTO_MAS_SCRIPT_CONFIG", path)
     roster = api._configured_auto_mas_rosters()
     assert roster == {"星穹铁道": ["星穹铁道官服189"],
-                      "星穹铁道模拟器": ["崩铁模拟器191"]}
+                      "星穹铁道模拟器": ["崩铁模拟器测试账号"]}
     assert "secret" not in json.dumps(roster)
 
 
